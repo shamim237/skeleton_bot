@@ -1,0 +1,257 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "anyone available?",
+          "Is anyone here?",
+          "hlw",
+          "Is anyone there?",
+          "Hello"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "bin",
+        "patterns": [
+            "how", "who", "whom", "do", "can", "you", "can you", "give me", "are you", "me", "you are", "have", "a", "nice",
+            "am",
+            "i",
+            "what", "what is", "how are", "how much",
+            "top ten songs"
+        ],
+        "responses": [
+            "Sorry, I don't understand.\nWhat do you want to know?"]
+      },
+      {
+        "tag": "movie",
+        "patterns": [
+          "give me top-10 movie names",
+          "can you give me a best movie list?",
+          "can you rpovide top-10 imbd movie list?",
+          "suggest me some top movies"
+        ],
+        "responses": [
+          "sure! Here you aree---"
+        ]
+      },
+      {
+        "tag": "wish",
+        "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "What's up?",
+        "How do you do?",
+        "Are you fine?"
+      ],
+      "responses":[
+        "I'm doing good! What about you?",
+        "I'm alright! Thank you for asking. How are you?",
+        "I am doing great. And you?"
+      ]
+      },
+      {
+        "tag": "simple",
+        "patterns": ["I am fine", "I'm fine", "I'm well", "I'm good", "Great!", "good"],
+        "responses": ["Good to know!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "okay Bye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "identity",
+        "patterns":["What is your name?", "Who are you?", "Are you a bot?", "Are you a human?"],
+        "responses":[
+          "I am Skeleton. I am an AI ChatBot. I can help you to know about various health issues.",
+          "My name is Skeleton. I am an AI ChatBot. I can provide many health related inforation."
+        ]
+      },
+      {
+        "tag": "doing",
+        "patterns":[
+          "What are you doing?",
+          "What are you doing now?"
+        ],
+        "responses": [
+          "Nothing special. Just thinkng about people's health. :)",
+          "Right now, I am just gathering some information about health issues."
+        ]
+      },
+      {
+        "tag": "compliment",
+        "patterns": [
+          "you are funny!",
+          "you are intelligent!",
+          "you are a funny guy!"
+        ],
+        "responses": [
+          "Thank you for the compliment!"
+        ]
+      },
+      {
+        "tag": "created",
+        "patterns": [
+          "Who created you?",
+          "Who made you?",
+          "Who developed you?",
+          "Who is the owner of you?"
+        ],
+        "responses": [
+          "I am an AI ChatBot. I have created and developed by Opus Technology Limited."
+        ]
+      },
+      {
+        "tag": "opus",
+        "patterns": [
+          "What is Opus Technology Limited?",
+          "What is Opus Technology?",
+          "what is opus?",
+          "Tell me more about Opus",
+          "Tell me more about Opus Technology",
+          "What do you know about Opus?",
+          "What Opus Technology do?"
+        ],
+        "responses": [
+  
+          "Opus Technology Ltd is a leading Software Development and IT consulting service provider company. Combining unparalleled experience, domain expertise, best practices & comprehensive capabilities across various industries & business functions, it collaborates with customers to help them effectively address their operational challenges & grow their businesses stronger."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's great", "That's wonderful", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "work",
+        "patterns": [
+          "What is your job?",
+          "How can you help me?",
+          "What is your expertise?",
+          "What can you do for me?",
+          "What type of information you have?",
+          "How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", 
+          "What support is offered"
+        ],
+        "responses": [
+          "I have enough access of various Health related information. I can give you detailed information of a disease and also suggests you some way of getting remedies."
+        ]
+      },
+      {
+        "tag": "18+",
+        "patterns":[
+          "I love you!",
+          "Do you love me?",
+          "what is your Sex?", "will you be dating with me?", "can you be my girlfriend", " can you be my boyfriend", "Do you have any girlfriend?", "Do you have any boyfriend?",
+          "Do you have any gf?", "Do you have any bf?"
+        ],
+        "responses": [
+          "Sorry. I don't want to talk about this. Why don't you ask me about health issues."
+        ]
+      },
+      {
+        "tag": "coronavirus",
+        "patterns": [
+          "What is corona?",
+          "What is corona virus?",
+          "What is coronavirus?",
+          "What is COVID-19?",
+          "What is covid?",
+          "Do you know anything about Corona virus?",
+          "Do you know about covid-19?",
+          "Tell me about coronavirus"
+        ],
+        "responses": [
+          "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.",
+          "COVID-19 is the disease caused by SARS-CoV-2, the coronavirus that emerged in December 2019."
+          
+        ]
+      },
+      {
+        "tag": "meaning",
+        "patterns": [
+          "Why is it called coronavirus?",
+          "What is the meaning of corona",
+          "what is the meaning of coronavirus?"
+        ],
+        "responses":[
+          "Coronaviruses are named for their appearance: “corona” means “crown.” The virus's outer layers are covered with spike proteins that surround them like a crown."
+        ]
+      },
+      {
+        "tag": "symptoms",
+        "patterns": [
+  
+          "What are the main symptoms of corona?",
+          "What are the symptoms?",
+          "what are the crucial symptoms of corona?",
+          "what are the less common symptoms of covid-19?",
+          "what are the most common symptoms of covid?",
+          "what are the common signs of corona virus?",
+          "key symptoms",
+          "main symptoms"
+  
+        ],
+        "responses": [
+          "Most common symptoms of COVID-19 are: fever, cough, tiredness, and loss of taste or smell.",
+          "Most common signs of COVID-19 are: fever, cough, tiredness, and loss of taste or smell.",
+          "Most common symptoms of COVID-19 are: fever, cough, tiredness, and loss of taste or smell. Also, less common symptoms are: sore throat, headache, aches and pains, diarrhoea, a rash on skin, or discolouration of fingers or toes, red or irritated eyes."
+        ]
+      },
+      {
+        "tag": "severe",
+        "patterns": [
+          "How much severe the COVID-19 is?",
+          "How much dangerous the COVID-19 is?",
+          "How much severe the coronavirus is?",
+          "How much dangerous the corona is?",
+          "Is it severe?",
+          "Is it serious?",
+          "How much deadly the COVID-19 is?",
+          "is it deadly virus?"
+        ],
+        "responses": [
+          "COVID-19 can be severe, and has caused millions of deaths around the world as well as lasting health problems in some who have survived the illness",
+          "It varies from person to person. For someone, it can be deadly, and for the others, it can be mild."
+        ]
+      },
+  
+      {
+        "tag": "speard",
+        "patterns":[
+          "How does the coronavirus spread?",
+          "How corona speard?",
+          "How does the covid19 spread?",
+          "How it speards?"
+        ],
+        "responses":[
+          "As of now, researchers know that the coronavirus is spread through droplets and virus particles released into the air when an infected person breathes, talks, laughs, sings, coughs or sneezes.",
+          "COVID-19 transmits when people breathe in air contaminated by droplets and small airborne particles. The risk of breathing these in is highest when people are in close proximity, but they can be inhaled over longer distances, particularly indoors."
+        ] 
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
